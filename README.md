@@ -26,7 +26,7 @@ Preferably, but not necessarily, go to your `home` directory. Run this command:
 
 Run this command to download all the necessary files:
 
-`git clone repository`
+`gh repo clone gonzalezalfie/fetch-take-home`
 
 It should create a directory called `fetch-take-home`.
 
