@@ -18,19 +18,6 @@ Run these commands to install git:
 
 Press "yes" or "y" if needed.
 
-# Install gh
-
-Run these commands:
-
-```
-type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-&& sudo apt update \
-&& sudo apt install gh -y
-```
-
 # Clone the repository
 
 Preferably, but not necessarily, go to your `home` directory. Run this command:
@@ -39,7 +26,7 @@ Preferably, but not necessarily, go to your `home` directory. Run this command:
 
 Run this command to download all the necessary files:
 
-`gh repo clone gonzalezalfie/fetch-take-home`
+`git clone https://github.com/gonzalezalfie/fetch-take-home.git`
 
 It should create a directory called `fetch-take-home`.
 
